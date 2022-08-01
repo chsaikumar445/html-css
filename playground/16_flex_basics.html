@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex basics</title>
+    <style>
+        .body{
+            box-sizing: border-box;
+        }
+
+        .flex-box{
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            /* width: 500px; */
+            background-color: antiquewhite;
+            height: 50vh;
+            align-items: stretch;
+        }
+
+        .item{
+            background: rgb(123, 120, 120);
+            border: white 2px solid;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            width: 200px;
+            /* flex: 1; */
+          
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="item item-1"><h3>item 1</h3></div>
+        <div class="item item-2"><h3>item 2</h3></div>
+        <div class="item item-3"><h3>item 3</h3></div>
+    </div>
+</body>
+</html>
